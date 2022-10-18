@@ -1,0 +1,43 @@
+.App {
+  width: 50%;
+  height: 50vh;
+  background: #ededed;
+  border-radius: 10px;
+  margin: auto;
+  margin-top: 10%;
+}
+
+h1 {
+  text-align: center;
+}
+
+.App-Row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+label {
+  width: 91%;
+}
+
+input, select {
+  font-size: 18px;
+  width: 90%;
+  height: 30px;
+  margin-bottom: 20px;
+}
+
+select {
+  height: 40px;
+}
+
+button {
+  margin-top: 20px;
+  font-size: 18px;
+  width: 90%;
+  height: 30px;
+  background-color: chartreuse;
+  border: 1px solid #333;
+}
